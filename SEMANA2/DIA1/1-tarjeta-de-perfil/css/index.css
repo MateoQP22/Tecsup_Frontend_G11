@@ -25,13 +25,23 @@
     width: 100%;
     min-height: 100vh;
 
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .card{
-    max-width: 256px;
+    max-width: 320px;
     border:1px solid white;
     background-color: var(--primary-theme-color);
+    margin: auto;
+    border-radius: 20px;
+}
+
+.card img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.footer{
+    background-color: white;
 }
