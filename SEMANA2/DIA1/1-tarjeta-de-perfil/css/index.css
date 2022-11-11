@@ -1,3 +1,37 @@
-*{
-    background-color: beige;
+:root{
+    --primary-theme-color:#232323;
+    --secondary-theme-color:black;
+    --primary-text-color:#fff;
+    --primary-highlight-color:#61dafb;
+    --primary-font-family:"century gothic";
+}
+
+.body{
+    background-color: var(--primary-theme-color);
+    color:var(--primary-text-color);
+    margin:0;
+    font-family:var(--primary-font-family);
+}
+
+.element{
+    display:flex;
+}
+
+.hero{
+    background-image: url(https://i0.wp.com/www.totemguard.com/aulatotem/wp-content/uploads/2016/06/acic2VG-Imgur.gif?ssl=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    max-width: 256px;
+    border:1px solid white;
+    background-color: var(--primary-theme-color);
 }
