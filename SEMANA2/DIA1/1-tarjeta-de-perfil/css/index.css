@@ -39,7 +39,10 @@
     margin: auto;
     max-width: 320px;
     overflow: hidden;
+}
 
+.card:hover{
+    border: 0.125rem solid #232323;
 }
 
 .card__header{
@@ -80,6 +83,14 @@
     margin:0;
     text-align: justify;
     font-size: 1.0rem;
+}
+
+.card__text::before{
+    content:"🤍 ";
+}
+
+.card__text::after{
+    content: " 🤍";
 }
 
 .card__footer{
