@@ -1,3 +1,7 @@
 .header{
     position: fixed;
+    background-color: var(--primary-theme-color) ;
+    top:0;
+    left:0;
+    width: 100%;
 }

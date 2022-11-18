@@ -17,6 +17,6 @@
         --primary-font-family: 'Inconsolata', monospace;
         --padding-section: 1.5rem;
         --padding-container: 1rem;
-        --max-width-container: 640px;
+        --max-width-container: 1024px;
         --primary-border-radius: 0.5rem;
 }
