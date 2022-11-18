@@ -2,6 +2,8 @@
 @import './modules/variables.css';
 @import './modules/header.css';
 @import './modules/nav.css';
+@import './modules/list.css';
+@import './modules/utils.css';
 
 .body{
     background-color:var(--primary-theme-color);
