@@ -5,6 +5,11 @@
 .p-relative{
     position: relative;
 }
+
+.flex-1{
+    flex:1;
+}
+
 .gap-sm{
     gap:calc(var(--padding-section) * 0.5);
 }
