@@ -1,0 +1,13 @@
+@import './modules/animations.css';
+@import './modules/variables.css';
+@import './modules/hero.css';
+
+
+
+.body{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, var(--primary-theme-color), var(--secondary-theme-color));
+    color: var(--primary-text-color);
+    font-family: serif;
+    margin:0;
+}
