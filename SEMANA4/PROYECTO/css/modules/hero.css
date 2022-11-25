@@ -52,21 +52,21 @@
 
 
 .hero__letter:nth-child(1){
-    color: var(--secondary-highlight-color);
+    color: var(--letter-color-1);
 }
 
 .hero__letter:nth-child(2){
-    color: var(--primary-highlight-color);
+    color: var(--letter-color-2);
 }
 
 .hero__letter:nth-child(3){
-    color: var(--primary-highlight-color);
+    color: var(--letter-color-3);
 }
 
 .hero__letter:nth-child(4){
-    color: var(--primary-highlight-color);
+    color: var(--letter-color-4);
 }
 
 .hero__letter:nth-child(5){
-    color: var(--primary-highlight-color);
+    color: var(--letter-color-5);
 }

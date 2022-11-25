@@ -2,10 +2,22 @@
     --primary-theme-color:#5c5c5c;
     --secondary-theme-color:#000000;
     --primary-text-color:#fff;
-    --primary-highlight-color:#ffffff;
+    --primary-highlight-color:#00ffdd;
     --secondary-highlight-color:#00ffdd;
+
+    --letter-color-1:#bef264;
+    --letter-color-2:#0ea5e9;
+    --letter-color-3:#fdba74;
+    --letter-color-4:#3b82f6;
+    --letter-color-5:#f97316;
+    --letter-color-6:#ef4444;
+
     --three-highlight-color:#15ff00;
     --forty-highlight-color:#da005e;
+    scroll-behavior: smooth;
 
-
+    --padding-section: 1.5rem;
+    --padding-container: 1rem;
+    --max-width-container: 1024px;
+    --primary-border-radius: 0.5rem;
 }

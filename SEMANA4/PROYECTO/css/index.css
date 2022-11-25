@@ -1,6 +1,9 @@
 @import './modules/animations.css';
 @import './modules/variables.css';
 @import './modules/hero.css';
+@import './modules/layout.css';
+@import './modules/list.css';
+@import './modules/utils.css';
 
 
 
