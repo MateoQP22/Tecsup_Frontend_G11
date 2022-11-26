@@ -22,6 +22,14 @@
     gap: calc(var(--padding-section) * 1.5);
   }
 
+.m-top-auto{
+  margin-top: auto;
+}
+
+.j-items-center{
+  justify-items: center;
+}
+
   @media (min-width: 768px) {
     .md\:d-block {
       display: block;

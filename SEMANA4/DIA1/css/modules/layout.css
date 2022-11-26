@@ -104,7 +104,10 @@
  
 .g-elements--responsive {
     grid-template-columns: 100%;
+}
 
+.g-elements--gallery{
+    grid-template-columns: 100%;
 }
   
 @media (min-width: 768px) {
@@ -114,5 +117,9 @@
   
     .g-elements--responsive {
       grid-template-columns: 1fr 1fr;
+    }
+
+    .g-elements--gallery{
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
