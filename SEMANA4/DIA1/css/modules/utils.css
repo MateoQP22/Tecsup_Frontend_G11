@@ -1,13 +1,13 @@
+.d-none {
+    display: none;
+  }
+
 .f-direction-column{
    flex-direction: column; 
 }
 
 .p-relative{
     position: relative;
-}
-
-.flex-1{
-    flex:1;
 }
 
 .gap-sm{
@@ -18,8 +18,16 @@
     gap:calc(var(--padding-section));
 }
 
-@media(min-width:768px){
-    .md\:f-direction-row{
-        flex-direction: row;
+.gap-lg {
+    gap: calc(var(--padding-section) * 1.5);
+  }
+
+  @media (min-width: 768px) {
+    .md\:d-block {
+      display: block;
     }
-}
+  
+    .md\:f-direction-row {
+      flex-direction: row;
+    }
+  }

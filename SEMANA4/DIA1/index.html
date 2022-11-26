@@ -31,6 +31,9 @@
                         <a href="#hero" class="list__link">Perfil</a>
                     </li>
                     <li>
+                        <a href="#projects" class="list__link">Proyectos</a>
+                    </li>
+                    <li>
                         <a href="#Experiencia" class="list__link">Experiencia</a>
                     </li>
                     <li>
@@ -41,35 +44,46 @@
         </nav>
     </header>
     <main>
-        <article id="hero" class="section section--hero f-elements f-elements--center">
-            <div class="container g-elements g-elements--responsive">
-                <div class="">
-                    <header>
-                        <h1>Mateo Quispe Pacheco</h1>
+        <article id="hero" class="section hero f-elements f-elements--center">
+            <div class="container g-elements g-elements--responsive g-elements--center gap-lg">
+                <div class="card">
+                    <header class="card__header">
+                        <h1 class="card__title"> 🚀Mateo Quispe Pacheco🚀</h1>
                     </header>
-                    <section>
-                        <h2>👨‍💻Desarrollador👨‍💻 | 🌌Frontend🌌 | ⚛React⚛ | 💻Entusiasta💻</h2>
-                        <p>Desarrollador Web Frontend con la biblioteca React. Docente de especialización en Desarrollo Web
-                            Frontend. Apasionado del autoaprendizaje y del código limpio.</p>
+                    <section class="card__body">
+                        <h2 class="card__subtitle">👨‍💻Desarrollador👨‍💻 | 🌌Frontend🌌 | ⚛React⚛ | 💻Entusiasta💻</h2>
+                        <p class="card__text d-none md:d-block">
+                            🤍Desarrollador Web Frontend con la biblioteca React. Apasionado del autoaprendizaje y del código limpio.🤍
+                        </p>
                     </section>
-                    <footer>
-                        <div>
-                            <a href="#" target="_blank">CV</a>
-                            <a href="#" target="_blank">Github</a>
+                    <footer class="card__footer">
+                        <div class="f-elements f-elements--center gap-sm">
+                            <a href="https://1drv.ms/u/s!As5U-bd3F-a6gYsmbbG-Dybk88biRQ?e=7q73aZ" target="_blank"
+                                rel="noopener noreferrer" class="button button--primary">CV</a>
+                            <a href="https://github.com/ElliotXLeo" target="_blank" rel="noopener noreferrer"
+                                class="button button--outline-primary">GitHub</a>
                         </div>
                     </footer>
                 </div>
-                <div class="f-elements f-elements--center">
-                    <img src="./assets/foto_mia.jpg" alt="" width="450px" height="450px">
-                    <figure>
-                        <img src="https://www.svgrepo.com/show/354259/react.svg" alt="" width="50px" height="50px">
-                        <img src="https://www.svgrepo.com/show/373669/html.svg" alt="" width="50px" height="50px">
-                        <img src="https://www.svgrepo.com/show/373535/css.svg" alt="" width="50px" height="50px">
-                        <img src="https://www.svgrepo.com/show/376337/node-js.svg" alt="" width="50px" height="50px">
+                <div class="hero__img">
+                    <img src="./assets/foto_mia.jpg" alt="Mateo QP" width="256" class="hero__primary-img" />
+                    <figure class="hero__decorators">
+                        <img src="https://www.svgrepo.com/show/354259/react.svg" alt="" width="50px" height="50px" class="hero__decorator">
+                        <img src="https://www.svgrepo.com/show/373669/html.svg" alt="" width="50px" height="50px"
+                        class="hero__decorator">
+                        <img src="https://www.svgrepo.com/show/373535/css.svg" alt="" width="50px" height="50px"
+                        class="hero__decorator">
+                        <img src="https://www.svgrepo.com/show/376337/node-js.svg" alt="" width="50px" height="50px"
+                        class="hero__decorator">
                     </figure>
                 </div>
             </div>
         </article>
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section__title">📱 Proyectos 💻</h2>
+            </div>
+        </section>
         <section id="Experiencia">
             <div>
                 <h2>👨‍💻Experienciass👨‍💻</h2>
