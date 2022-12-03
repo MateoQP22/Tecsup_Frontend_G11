@@ -1,0 +1,41 @@
+.d-none {
+    display: none;
+  }
+
+.f-direction-column{
+   flex-direction: column; 
+}
+
+.p-relative{
+    position: relative;
+}
+
+.gap-sm{
+    gap:calc(var(--padding-section) * 0.5);
+}
+
+.gap-md{
+    gap:calc(var(--padding-section));
+}
+
+.gap-lg {
+    gap: calc(var(--padding-section) * 1.5);
+  }
+
+.m-top-auto{
+  margin-top: auto;
+}
+
+.j-items-center{
+  justify-items: center;
+}
+
+  @media (min-width: 768px) {
+    .md\:d-block {
+      display: block;
+    }
+  
+    .md\:f-direction-row {
+      flex-direction: row;
+    }
+  }

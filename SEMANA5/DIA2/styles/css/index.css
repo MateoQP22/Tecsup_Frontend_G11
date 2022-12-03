@@ -1,0 +1,18 @@
+@import './modules/layout.css';
+@import './modules/variables.css';
+@import './modules/header.css';
+@import './modules/nav.css';
+@import './modules/list.css';
+@import './modules/utils.css';
+@import './modules/cards.css';
+@import './modules/buttons.css';
+@import './modules/hero.css';
+@import './modules/animation.css';
+
+.body{
+    background-color:var(--primary-theme-color);
+    color: var(--primary-text-color);
+    font-family:var(--primary-font-family) ;
+    margin:0;
+}
+
