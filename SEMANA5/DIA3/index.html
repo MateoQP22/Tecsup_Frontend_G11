@@ -2,52 +2,63 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./ok.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="./styles/css/index.css">
-    <link rel="stylesheet" href="./styles/css/fe.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@200;400;700&display=swap"
-        rel="stylesheet" />
-    <title>Mikhuy</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./ok.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="./styles/css/index.css">
+  <link rel="stylesheet" href="./styles/css/fe.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@200;400;700&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+  <title>Mikhuy</title>
 </head>
 
 <body class="body">
-    <header class="header">
-        <nav class="nav">
-          <div class="container f-elements f-elements--header gap-xs">
-            <a href="#" class="nav__logo">
-              🍲
-            </a>
-            <ul class="list f-elements gap-sm">
-              <li>
-                <a href="#" class="list__link">Menu</a>
-              </li>
-              <li>
-                <a href="#" class="list__link">Reservas</a>
-              </li>
-              <li>
-                <a href="#" class="list__link">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <main>
-        <article class="section f-elements f-elements--center min-h-100vh">
-          <div class="container">
-            <div class="f-elements f-direction-columns gap-sm t-align-center">
-              <h1 class="section__title">Restaurante Chanchirata, La mejor comida Peruana</h1>
-              <h2 class="section__subtitle">El mejor restaurante de comida Peruana</h2>
-              <p class="section__text">El verdadero lugar con las 48. Bueno, bonito, barato</p>
-            </div>
-          </div>
-        </article>
-      </main>
+  <header class="header">
+    <nav class="nav">
+      <div class="container f-elements f-elements--header gap-xs">
+        <a href="#" class="nav__logo">
+          🍲
+        </a>
+        <div class="icon icon--menu" id="icon-menu">
+          <i class="bi bi-list"></i>
+        </div>
+        <ul class="list list--header f-elements f-elements--responsive f-elements--center gap-sm">
+          <li>
+            <a href="#" class="list__link">Menu</a>
+          </li>
+          <li>
+            <a href="#" class="list__link">Reservas</a>
+          </li>
+          <li>
+            <a href="#" class="list__link">Contacto</a>
+          </li>
+          <li class="icon icon--close" id="icon-close">
+            <i class="bi bi-x-circle"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article class="section f-elements f-elements--center min-h-100vh">
+      <div class="container">
+        <div class="f-elements f-direction-columns gap-sm t-align-center">
+          <h1 class="section__title">Restaurante Chanchirata, La mejor comida Peruana</h1>
+          <h2 class="section__subtitle">El mejor restaurante de comida Peruana</h2>
+          <p class="section__text">El verdadero lugar con las 48. Bueno, bonito, barato</p>
+        </div>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <h2>Mateo Quispe Pacheco</h2>
+  </footer>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
