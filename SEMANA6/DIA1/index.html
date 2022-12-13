@@ -9,21 +9,33 @@
 </head>
 <body class="bg-dark text-light">
     <main>
-        <section>
-            <div class="container">
-                <h1>Calculadora Bootstrap</h1>
-                <form>
+        <section class="py-5">
+            <div class="container d-flex flex-column gap-4">
+                <h1 class="text-info text-center m-0">Calculadora Bootstrap</h1>
+                <form class="d-flex flex-column gap-3" >
                     <div class="form-floating">
                       <input type="number" class="form-control bg-transparent text-light" id="number1" placeholder="Número 1">
                       <label for="number1">Número 1</label>
                     </div>
                     <div class="form-floating">
-                      <input type="number" class="form-control bg-transparent text-light" id="number2" placeholder="Número 2">
-                      <label for="number2">Número 2</label>
-                    </div>
+                        <select class="form-select bg-dark text-light" id="floatingSelect" aria-label="Floating label select example">
+                          <option selected value="+">+</option>
+                          <option value="-">-</option>
+                          <option value="*">*</option>
+                          <option value="/">/</option>
+                        </select>
+                        <label for="floatingSelect">Works with selects</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="number" class="form-control bg-transparent text-light" id="number1" placeholder="Número 1">
+                        <label for="number2">Número 2</label>
+                      </div>
+                      <button class="btn btn-outline-light btn-lg w-100">Calcular</button>
                   </form>
             </div>
         </section>
     </main>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
