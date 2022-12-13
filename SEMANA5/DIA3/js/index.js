@@ -22,3 +22,18 @@ iconClose.addEventListener('click', () => {
   listHeader.classList.remove('list--header-show');
 });
 
+const years = 18;
+console.log( years >= 18 ? 'eres mayor de edad':'eres menor de edad' );
+
+const comida = () =>{
+  if (26>=16){
+    let name;
+    name = 'Mateo';
+    const years = 25;
+    console.log(name);
+    console.log(years);
+    console.log('Nombre: '+ name + ', Años: '+ years)
+  }
+};
+
+comida();
