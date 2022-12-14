@@ -45,10 +45,18 @@
     cursor: pointer;
     padding: 0.25em 1em;
     border-radius: 0.5rem;
-    transition: box-shadow 0.25s, filter 0.25s;
+    transition: box-shadow 0.25s, filter 0.25s, top 0.25s, left 0.25s ;
 }
 
 .button:hover{
     box-shadow: 0 0 0 0.0625rem var(--primary-text-color);
     filter: brightness(1.25);
+}
+
+.button--no{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
 }
