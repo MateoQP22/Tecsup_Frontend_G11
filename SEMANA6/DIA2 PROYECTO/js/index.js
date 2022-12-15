@@ -3,6 +3,7 @@
 const documentReady = () =>{
     const buttonYes = document.getElementById('buttonYes');
     const buttonNo = document.getElementById('buttonNo');
+    const heroTittle = document.getElementById('heroTittle');
 
     const getPartner = () =>{
         alert(' 🤭 Wow Somos PartNer 🥰');
@@ -15,6 +16,9 @@ const documentReady = () =>{
         buttonNo.style.top = Math.random() * innerHeight + 'px';
         buttonNo.style.left = Math.random() * innerWidth + 'px';
     };
+
+    const partner = prompt('🥰 ¿Cual es your name? 🥰');
+    heroTittle.innerText +=  ` ${partner || 'Anonimo' } ? 💕`; 
 
     buttonYes.addEventListener('click',getPartner);
     buttonNo.addEventListener('mouseover', brokenHeart);
