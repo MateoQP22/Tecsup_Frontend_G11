@@ -64,37 +64,42 @@
                     </section>
                     <section class="col-md-4">
                         <form class="d-flex flex-column gap-3" action="" id="formPokemons">
+                            <div class="form-floating" hidden>
+                                <input type="text" class="form-control bg-transparent text-light" id="index"
+                                    placeholder="index" readonly/>
+                                <label for="index">Id</label>
+                            </div>
                             <div class="form-floating">
                                 <input type="text" class="form-control bg-transparent text-light" id="name"
-                                    placeholder="name" required />
+                                    placeholder="name" required/>
                                 <label for="name">Nombre</label>
                             </div>
                             <div class="form-floating">
                                 <input type="text" class="form-control bg-transparent text-light" id="type"
-                                    placeholder="type" required />
+                                    placeholder="type" required/>
                                 <label for="type">Tipo</label>
                             </div>
                             <div class="form-floating">
                                 <input type="number" class="form-control bg-transparent text-light" id="hp"
-                                    placeholder="hp" required />
+                                    placeholder="hp" required/>
                                 <label for="hp">Hp</label>
                             </div>
                             <div class="form-floating">
                                 <input type="text" class="form-control bg-transparent text-light" id="attack"
-                                    placeholder="attack" required />
+                                    placeholder="attack" required/>
                                 <label for="attack">Ataque</label>
                             </div>
                             <div class="form-floating">
                                 <input type="text" class="form-control bg-transparent text-light" id="special"
-                                    placeholder="special" required />
+                                    placeholder="special" required/>
                                 <label for="special">Especial</label>
                             </div>
                             <div class="form-floating">
                                 <input type="text" class="form-control bg-transparent text-light" id="imgurl"
-                                    placeholder="imgurl" required />
+                                    placeholder="imgurl" required/>
                                 <label for="imgurl">Url de Imagen</label>
                             </div>
-                            <button class="btn btn-outline-light btn-lg w-100">Enviar</button>
+                            <button class="btn btn-outline-light btn-lg w-100" id="button">Enviar</button>
                         </form>
                     </section>
                 </div>
@@ -106,8 +111,8 @@
         <h6 class="text-center m-0">Desarrollado por Mateo Quispe Pacheco</h6>
     </footer>
     <!-- JavaScript Bundle with Popper -->
-
-    <script src="./js/index.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/index.js" defer></script>
 </body>
 
 </html>

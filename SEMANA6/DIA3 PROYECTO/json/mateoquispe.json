@@ -1,0 +1,15 @@
+{
+    "profile":{
+        "id":1,
+        "name":"Mateo Quispe Pacheco",
+        "shortName":"Mateo QP",
+        "slogan":"El mejor desarrollador web Fronted to mondo",
+        "username":"MateoQP_aea",
+        "title":"Desarrollador / Fronted / React Js / Developer",
+        "mainStack":"HTML, CSS, JavaScript, React",
+        "description":"Desarrollador Web Frontend con la biblioteca React",
+        "urlPhoto":"",
+        "urlLinkedIn":"https://mateoqp22.github.io/Tecsup_Frontend_G11/SEMANA4/DIA1/index.html",
+        "urlCv":"https://www.facebook.com/mateomanuel.quispepacheco/"
+    }
+}
