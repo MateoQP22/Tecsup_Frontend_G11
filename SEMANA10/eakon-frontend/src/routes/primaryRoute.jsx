@@ -5,7 +5,6 @@ export const primaryRoute = createBrowserRouter([
   {
     path: '/',
     element: <PrimaryLayout />,
-    errorElement: <h1>Error</h1>,
     children: [
       {
         index: true,
