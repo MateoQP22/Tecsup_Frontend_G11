@@ -167,6 +167,11 @@
         loader.remove();
       }, 1000);
     });
+
+    const theme = localStorage.getItem('theme');
+    if (theme === 'dark' || theme === 'light') {
+      document.documentElement.className = theme;
+    }
   </script>
 
 
