@@ -5,6 +5,7 @@ import { store } from './redux/store';
 import { primaryRoute } from './routes/primaryRoute';
 
 function App() {
+  console.log("1")
   return (
     <Provider store={store}>
       <RouterProvider router={primaryRoute} />
