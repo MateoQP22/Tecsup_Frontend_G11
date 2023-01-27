@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import PrimaryLayout from "../layouts/PrimaryLayout";
+import AboutUsPage from "../pages/AboutUsPage";
 import HomePages from "../pages/homepages";
+import ContactPage from "../pages/ContactPage";
 
 export const primaryRoute = createBrowserRouter([
   {
@@ -15,17 +17,17 @@ export const primaryRoute = createBrowserRouter([
         path: 'productos',
         element: <h1>Productos</h1>
       },
-      {
+      {   
         path: 'servicios',
         element: <h1>Servicios</h1>
       },
       {
         path: 'nosotros',
-        element: <h1>Nosotros</h1>
+        element: <AboutUsPage />
       },
       {
         path: 'contacto',
-        element: <h1>Contacto</h1>
+        element: <ContactPage />
       }
     ]
   }

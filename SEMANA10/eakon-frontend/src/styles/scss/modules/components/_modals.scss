@@ -25,4 +25,14 @@
     pointer-events: auto;
     --translate-modal: 0;
   }
+
+  &--header {
+    @include desktop {
+      position: static;
+      background-image: none;
+      opacity: 1;
+      pointer-events: auto;
+      --translate-modal: 0;
+    }
+  }
 }
