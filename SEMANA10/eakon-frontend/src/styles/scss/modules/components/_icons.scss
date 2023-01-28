@@ -5,12 +5,12 @@
   color: var(--primary-text-color);
   font-size: 2rem;
   padding: 0;
-  filter: contrast(0.75);
+  filter: brightness(0.75);
   cursor: pointer;
-  transition: filter 0.25s;
+  transition: filter 0.25s, color 0.25s;
 
   &:hover {
-    filter: contrast(1);
+    filter: brightness(1);
   }
 
   &--xs {
@@ -25,7 +25,7 @@
     position: absolute;
     top: var(--padding-nav);
     right: var(--container-padding);
-    transition: top 0.25s;
+    transition: filter 0.25s, color 0.25s, top 0.25s;
   }
 
   &--close,

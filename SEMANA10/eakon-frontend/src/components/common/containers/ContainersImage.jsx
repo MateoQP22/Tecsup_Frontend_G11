@@ -18,7 +18,7 @@ const ContainersImage = ({src, alt, className=''}) => {
 
   return (
     <img
-      src={src}
+      src={src ?? logoEAKON}
       alt={alt}
       className={`section_img ${className}`}
       loading='lazy'
