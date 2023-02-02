@@ -12,6 +12,7 @@ export const fetchReadContactData = createAsyncThunk(
       const { data } = await axiosInstance(options);
       return data;
     } catch (error) {
+      console.log(error)
       return rejectWithValue(error);
     }
   }

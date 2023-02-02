@@ -12,6 +12,7 @@ export const fetchReadAboutUsData = createAsyncThunk(
       const { data } = await axiosInstance(options);
       return data;
     } catch (error) {
+      console.log(error)
       return rejectWithValue(error);
     }
   }

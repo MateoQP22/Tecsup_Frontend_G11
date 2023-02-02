@@ -4,7 +4,7 @@ import Header from "../components/sections/Header";
 const PrimaryLayout = () => {
   return (
     <>
-      <Header />
+      <Header/>
       <main>
         <Outlet />
       </main>
